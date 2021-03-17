@@ -23,6 +23,35 @@
         <div *ngIf="l" style="background-color: lightyellow;">this is last record</div>
     </li>
 </ul>
+<p>New Table with Even add Odd</p>
+<ul>
+    <li *ngFor="let contact of contacts; even as e; odd as o">
+
+        <div *ngIf="e" style="background-color: #ddd;">
+            {{ i }} {{ contact.firstName }} {{contact.lastName }}
+        </div>
+        <div *ngIf="o" style="background-color: #ffffcc;">
+            {{ i }} {{ contact.firstname }} {{ contact.lastName }}
+        </div>
+    </li>
+</ul>
+
+<h4>Learning ngSwitch</h4>
+
+<div [ngSwitch] ="superPower">
+    <div *ngSwitchCase="'wonderWomen'">Display Wonder women super powers</div>
+    <div *ngSwitchCase="'superMan'">Display Super Man super powers</div>
+    <div *ngSwitchCase="'heMan'">Display He Man super powers</div>
+    <div *ngSwitchCase="'SpiderMan'">Display Spiderman super powers</div>
+    <div *ngSwitchDefault>Super power is in learning</div>
+</div>
+
+<div [ngSwitch] ="tax">
+    <div *ngSwitchCase="10">Display tax is 10</div>
+    <div *ngSwitchCase="30">Display tax is 30</div>
+    <div *ngSwitchDefault>Display tax is 50%</div>
+</div>
+
 
 
 <router-outlet></router-outlet>

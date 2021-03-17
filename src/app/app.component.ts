@@ -10,11 +10,65 @@ export class AppComponent {
 
   success_msg = true;
 
+  tax = 20;
+
+  superPower = 'Angular' //
+
   contacts = [
     {
       'firstName' : 'ARC',
       'lastName'  : 'Tutorials',
       'contactId' : 1234
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 6767
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Strokes',
+      'contactId' : 3434
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 6767
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Strokes',
+      'contactId' : 3434
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 6767
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Strokes',
+      'contactId' : 3434
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 6767
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Strokes',
+      'contactId' : 3434
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 6767
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Strokes',
+      'contactId' : 3434
     },
     {
       'firstName' : 'Mark',
